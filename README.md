@@ -12,9 +12,9 @@ This repo documents a small AD/DNS/Win11 lab used to practice Tier-1/Tier-2 supp
 
 | Proof | Screenshot |
 |------|------------|
-| `nslookup srv-dc.lab.local 192.168.52.10` → `192.168.52.10` | ![nslookup](assets/nslookup_srv-dc.png) |
-| DNS zone shows no 10.0.2.4 A records | ![dns zone](assets/dns_zone_clean.png) |
-| `Z:` mapped to `\\192.168.52.10\EngShare` and test file saved | ![drive](assets/mapped_drive_Z.png) |
+| `nslookup srv-dc.lab.local 192.168.52.10` → `192.168.52.10` | ![nslookup proof](assets/images/nslookup-srv-dc-192-168-52-10.png) |
+| DNS zone shows no 10.0.2.4 A records | | DNS zone shows no 10.0.2.4 A records | ![DNS zone clean](assets/images/dns-zone-clean-no-10-0-2-4.png) | |
+| `Z:` mapped to `\\192.168.52.10\EngShare` and test file saved | ![Mapped drive Z](assets/images/mapped-drive-z.png) |
 
 ## Key commands used
 ```powershell
